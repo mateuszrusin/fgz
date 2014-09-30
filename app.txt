@@ -1,0 +1,2018 @@
+Silex\Application Object
+(
+    [providers:protected] => Array
+        (
+            [0] => Ruckuus\Silex\ActiveRecordServiceProvider Object
+                (
+                    [app] => Silex\Application Object
+ *RECURSION*
+                )
+
+            [1] => Silex\Provider\MonologServiceProvider Object
+                (
+                )
+
+        )
+
+    [booted:protected] => 
+    [values:protected] => Array
+        (
+            [logger] => Closure Object
+                (
+                    [static] => Array
+                        (
+                            [app] => Silex\Application Object
+ *RECURSION*
+                        )
+
+                    [this] => Silex\Provider\MonologServiceProvider Object
+                        (
+                        )
+
+                )
+
+            [routes] => Closure Object
+                (
+                    [static] => Array
+                        (
+                            [callable] => Closure Object
+                                (
+                                    [this] => Silex\Application Object
+ *RECURSION*
+                                )
+
+                            [object] => 
+                        )
+
+                    [parameter] => Array
+                        (
+                            [$c] => <required>
+                        )
+
+                )
+
+            [controllers] => Closure Object
+                (
+                    [static] => Array
+                        (
+                            [callable] => Closure Object
+                                (
+                                    [static] => Array
+                                        (
+                                            [app] => Silex\Application Object
+ *RECURSION*
+                                        )
+
+                                    [this] => Silex\Application Object
+ *RECURSION*
+                                )
+
+                            [object] => Silex\ControllerCollection Object
+                                (
+                                    [controllers:protected] => Array
+                                        (
+                                            [0] => Silex\Controller Object
+                                                (
+                                                    [route:Silex\Controller:private] => Silex\Route Object
+                                                        (
+                                                            [path:Symfony\Component\Routing\Route:private] => /
+                                                            [host:Symfony\Component\Routing\Route:private] => 
+                                                            [schemes:Symfony\Component\Routing\Route:private] => Array
+                                                                (
+                                                                )
+
+                                                            [methods:Symfony\Component\Routing\Route:private] => Array
+                                                                (
+                                                                    [0] => GET
+                                                                )
+
+                                                            [defaults:Symfony\Component\Routing\Route:private] => Array
+                                                                (
+                                                                    [_controller] => Closure Object
+                                                                        (
+                                                                            [static] => Array
+                                                                                (
+                                                                                    [app] => Silex\Application Object
+ *RECURSION*
+                                                                                )
+
+                                                                        )
+
+                                                                )
+
+                                                            [requirements:Symfony\Component\Routing\Route:private] => Array
+                                                                (
+                                                                    [_method] => GET
+                                                                )
+
+                                                            [options:Symfony\Component\Routing\Route:private] => Array
+                                                                (
+                                                                    [compiler_class] => Symfony\Component\Routing\RouteCompiler
+                                                                )
+
+                                                            [compiled:Symfony\Component\Routing\Route:private] => 
+                                                            [condition:Symfony\Component\Routing\Route:private] => 
+                                                        )
+
+                                                    [routeName:Silex\Controller:private] => 
+                                                    [isFrozen:Silex\Controller:private] => 
+                                                )
+
+                                            [1] => Silex\Controller Object
+                                                (
+                                                    [route:Silex\Controller:private] => Silex\Route Object
+                                                        (
+                                                            [path:Symfony\Component\Routing\Route:private] => /fgz.html
+                                                            [host:Symfony\Component\Routing\Route:private] => 
+                                                            [schemes:Symfony\Component\Routing\Route:private] => Array
+                                                                (
+                                                                )
+
+                                                            [methods:Symfony\Component\Routing\Route:private] => Array
+                                                                (
+                                                                    [0] => GET
+                                                                )
+
+                                                            [defaults:Symfony\Component\Routing\Route:private] => Array
+                                                                (
+                                                                    [_controller] => Closure Object
+                                                                        (
+                                                                        )
+
+                                                                )
+
+                                                            [requirements:Symfony\Component\Routing\Route:private] => Array
+                                                                (
+                                                                    [_method] => GET
+                                                                )
+
+                                                            [options:Symfony\Component\Routing\Route:private] => Array
+                                                                (
+                                                                    [compiler_class] => Symfony\Component\Routing\RouteCompiler
+                                                                )
+
+                                                            [compiled:Symfony\Component\Routing\Route:private] => 
+                                                            [condition:Symfony\Component\Routing\Route:private] => 
+                                                        )
+
+                                                    [routeName:Silex\Controller:private] => 
+                                                    [isFrozen:Silex\Controller:private] => 
+                                                )
+
+                                            [2] => Silex\ControllerCollection Object
+                                                (
+                                                    [controllers:protected] => Array
+                                                        (
+                                                            [0] => Silex\Controller Object
+                                                                (
+                                                                    [route:Silex\Controller:private] => Silex\Route Object
+                                                                        (
+                                                                            [path:Symfony\Component\Routing\Route:private] => /{id}
+                                                                            [host:Symfony\Component\Routing\Route:private] => 
+                                                                            [schemes:Symfony\Component\Routing\Route:private] => Array
+                                                                                (
+                                                                                )
+
+                                                                            [methods:Symfony\Component\Routing\Route:private] => Array
+                                                                                (
+                                                                                    [0] => GET
+                                                                                )
+
+                                                                            [defaults:Symfony\Component\Routing\Route:private] => Array
+                                                                                (
+                                                                                    [_controller] => Closure Object
+                                                                                        (
+                                                                                            [this] => Fgz\Controller\Animals Object
+                                                                                                (
+                                                                                                )
+
+                                                                                            [parameter] => Array
+                                                                                                (
+                                                                                                    [$id] => <required>
+                                                                                                )
+
+                                                                                        )
+
+                                                                                )
+
+                                                                            [requirements:Symfony\Component\Routing\Route:private] => Array
+                                                                                (
+                                                                                    [_method] => GET
+                                                                                )
+
+                                                                            [options:Symfony\Component\Routing\Route:private] => Array
+                                                                                (
+                                                                                    [compiler_class] => Symfony\Component\Routing\RouteCompiler
+                                                                                )
+
+                                                                            [compiled:Symfony\Component\Routing\Route:private] => 
+                                                                            [condition:Symfony\Component\Routing\Route:private] => 
+                                                                        )
+
+                                                                    [routeName:Silex\Controller:private] => 
+                                                                    [isFrozen:Silex\Controller:private] => 
+                                                                )
+
+                                                            [1] => Silex\Controller Object
+                                                                (
+                                                                    [route:Silex\Controller:private] => Silex\Route Object
+                                                                        (
+                                                                            [path:Symfony\Component\Routing\Route:private] => /
+                                                                            [host:Symfony\Component\Routing\Route:private] => 
+                                                                            [schemes:Symfony\Component\Routing\Route:private] => Array
+                                                                                (
+                                                                                )
+
+                                                                            [methods:Symfony\Component\Routing\Route:private] => Array
+                                                                                (
+                                                                                    [0] => GET
+                                                                                )
+
+                                                                            [defaults:Symfony\Component\Routing\Route:private] => Array
+                                                                                (
+                                                                                    [_controller] => Closure Object
+                                                                                        (
+                                                                                            [this] => Fgz\Controller\Animals Object
+                                                                                                (
+                                                                                                )
+
+                                                                                        )
+
+                                                                                )
+
+                                                                            [requirements:Symfony\Component\Routing\Route:private] => Array
+                                                                                (
+                                                                                    [_method] => GET
+                                                                                )
+
+                                                                            [options:Symfony\Component\Routing\Route:private] => Array
+                                                                                (
+                                                                                    [compiler_class] => Symfony\Component\Routing\RouteCompiler
+                                                                                )
+
+                                                                            [compiled:Symfony\Component\Routing\Route:private] => 
+                                                                            [condition:Symfony\Component\Routing\Route:private] => 
+                                                                        )
+
+                                                                    [routeName:Silex\Controller:private] => 
+                                                                    [isFrozen:Silex\Controller:private] => 
+                                                                )
+
+                                                            [2] => Silex\Controller Object
+                                                                (
+                                                                    [route:Silex\Controller:private] => Silex\Route Object
+                                                                        (
+                                                                            [path:Symfony\Component\Routing\Route:private] => /{id}
+                                                                            [host:Symfony\Component\Routing\Route:private] => 
+                                                                            [schemes:Symfony\Component\Routing\Route:private] => Array
+                                                                                (
+                                                                                )
+
+                                                                            [methods:Symfony\Component\Routing\Route:private] => Array
+                                                                                (
+                                                                                    [0] => PUT
+                                                                                )
+
+                                                                            [defaults:Symfony\Component\Routing\Route:private] => Array
+                                                                                (
+                                                                                    [_controller] => Closure Object
+                                                                                        (
+                                                                                            [this] => Fgz\Controller\Animals Object
+                                                                                                (
+                                                                                                )
+
+                                                                                            [parameter] => Array
+                                                                                                (
+                                                                                                    [$request] => <required>
+                                                                                                    [$id] => <required>
+                                                                                                )
+
+                                                                                        )
+
+                                                                                )
+
+                                                                            [requirements:Symfony\Component\Routing\Route:private] => Array
+                                                                                (
+                                                                                    [_method] => PUT
+                                                                                )
+
+                                                                            [options:Symfony\Component\Routing\Route:private] => Array
+                                                                                (
+                                                                                    [compiler_class] => Symfony\Component\Routing\RouteCompiler
+                                                                                )
+
+                                                                            [compiled:Symfony\Component\Routing\Route:private] => 
+                                                                            [condition:Symfony\Component\Routing\Route:private] => 
+                                                                        )
+
+                                                                    [routeName:Silex\Controller:private] => 
+                                                                    [isFrozen:Silex\Controller:private] => 
+                                                                )
+
+                                                            [3] => Silex\Controller Object
+                                                                (
+                                                                    [route:Silex\Controller:private] => Silex\Route Object
+                                                                        (
+                                                                            [path:Symfony\Component\Routing\Route:private] => /
+                                                                            [host:Symfony\Component\Routing\Route:private] => 
+                                                                            [schemes:Symfony\Component\Routing\Route:private] => Array
+                                                                                (
+                                                                                )
+
+                                                                            [methods:Symfony\Component\Routing\Route:private] => Array
+                                                                                (
+                                                                                    [0] => POST
+                                                                                )
+
+                                                                            [defaults:Symfony\Component\Routing\Route:private] => Array
+                                                                                (
+                                                                                    [_controller] => Closure Object
+                                                                                        (
+                                                                                            [this] => Fgz\Controller\Animals Object
+                                                                                                (
+                                                                                                )
+
+                                                                                            [parameter] => Array
+                                                                                                (
+                                                                                                    [$request] => <required>
+                                                                                                )
+
+                                                                                        )
+
+                                                                                )
+
+                                                                            [requirements:Symfony\Component\Routing\Route:private] => Array
+                                                                                (
+                                                                                    [_method] => POST
+                                                                                )
+
+                                                                            [options:Symfony\Component\Routing\Route:private] => Array
+                                                                                (
+                                                                                    [compiler_class] => Symfony\Component\Routing\RouteCompiler
+                                                                                )
+
+                                                                            [compiled:Symfony\Component\Routing\Route:private] => 
+                                                                            [condition:Symfony\Component\Routing\Route:private] => 
+                                                                        )
+
+                                                                    [routeName:Silex\Controller:private] => 
+                                                                    [isFrozen:Silex\Controller:private] => 
+                                                                )
+
+                                                            [4] => Silex\Controller Object
+                                                                (
+                                                                    [route:Silex\Controller:private] => Silex\Route Object
+                                                                        (
+                                                                            [path:Symfony\Component\Routing\Route:private] => /{id}
+                                                                            [host:Symfony\Component\Routing\Route:private] => 
+                                                                            [schemes:Symfony\Component\Routing\Route:private] => Array
+                                                                                (
+                                                                                )
+
+                                                                            [methods:Symfony\Component\Routing\Route:private] => Array
+                                                                                (
+                                                                                    [0] => DELETE
+                                                                                )
+
+                                                                            [defaults:Symfony\Component\Routing\Route:private] => Array
+                                                                                (
+                                                                                    [_controller] => Closure Object
+                                                                                        (
+                                                                                            [this] => Fgz\Controller\Animals Object
+                                                                                                (
+                                                                                                )
+
+                                                                                            [parameter] => Array
+                                                                                                (
+                                                                                                    [$id] => <required>
+                                                                                                )
+
+                                                                                        )
+
+                                                                                )
+
+                                                                            [requirements:Symfony\Component\Routing\Route:private] => Array
+                                                                                (
+                                                                                    [_method] => DELETE
+                                                                                )
+
+                                                                            [options:Symfony\Component\Routing\Route:private] => Array
+                                                                                (
+                                                                                    [compiler_class] => Symfony\Component\Routing\RouteCompiler
+                                                                                )
+
+                                                                            [compiled:Symfony\Component\Routing\Route:private] => 
+                                                                            [condition:Symfony\Component\Routing\Route:private] => 
+                                                                        )
+
+                                                                    [routeName:Silex\Controller:private] => 
+                                                                    [isFrozen:Silex\Controller:private] => 
+                                                                )
+
+                                                        )
+
+                                                    [defaultRoute:protected] => Silex\Route Object
+                                                        (
+                                                            [path:Symfony\Component\Routing\Route:private] => /
+                                                            [host:Symfony\Component\Routing\Route:private] => 
+                                                            [schemes:Symfony\Component\Routing\Route:private] => Array
+                                                                (
+                                                                )
+
+                                                            [methods:Symfony\Component\Routing\Route:private] => Array
+                                                                (
+                                                                )
+
+                                                            [defaults:Symfony\Component\Routing\Route:private] => Array
+                                                                (
+                                                                )
+
+                                                            [requirements:Symfony\Component\Routing\Route:private] => Array
+                                                                (
+                                                                )
+
+                                                            [options:Symfony\Component\Routing\Route:private] => Array
+                                                                (
+                                                                    [compiler_class] => Symfony\Component\Routing\RouteCompiler
+                                                                )
+
+                                                            [compiled:Symfony\Component\Routing\Route:private] => 
+                                                            [condition:Symfony\Component\Routing\Route:private] => 
+                                                        )
+
+                                                    [defaultController:protected] => Closure Object
+                                                        (
+                                                            [this] => Silex\ControllerCollection Object
+ *RECURSION*
+                                                            [parameter] => Array
+                                                                (
+                                                                    [$request] => <required>
+                                                                )
+
+                                                        )
+
+                                                    [prefix:protected] => /animals
+                                                )
+
+                                            [3] => Silex\ControllerCollection Object
+                                                (
+                                                    [controllers:protected] => Array
+                                                        (
+                                                            [0] => Silex\Controller Object
+                                                                (
+                                                                    [route:Silex\Controller:private] => Silex\Route Object
+                                                                        (
+                                                                            [path:Symfony\Component\Routing\Route:private] => /{id}
+                                                                            [host:Symfony\Component\Routing\Route:private] => 
+                                                                            [schemes:Symfony\Component\Routing\Route:private] => Array
+                                                                                (
+                                                                                )
+
+                                                                            [methods:Symfony\Component\Routing\Route:private] => Array
+                                                                                (
+                                                                                    [0] => GET
+                                                                                )
+
+                                                                            [defaults:Symfony\Component\Routing\Route:private] => Array
+                                                                                (
+                                                                                    [_controller] => Closure Object
+                                                                                        (
+                                                                                            [this] => Fgz\Controller\Breeds Object
+                                                                                                (
+                                                                                                )
+
+                                                                                            [parameter] => Array
+                                                                                                (
+                                                                                                    [$id] => <required>
+                                                                                                )
+
+                                                                                        )
+
+                                                                                )
+
+                                                                            [requirements:Symfony\Component\Routing\Route:private] => Array
+                                                                                (
+                                                                                    [_method] => GET
+                                                                                )
+
+                                                                            [options:Symfony\Component\Routing\Route:private] => Array
+                                                                                (
+                                                                                    [compiler_class] => Symfony\Component\Routing\RouteCompiler
+                                                                                )
+
+                                                                            [compiled:Symfony\Component\Routing\Route:private] => 
+                                                                            [condition:Symfony\Component\Routing\Route:private] => 
+                                                                        )
+
+                                                                    [routeName:Silex\Controller:private] => 
+                                                                    [isFrozen:Silex\Controller:private] => 
+                                                                )
+
+                                                            [1] => Silex\Controller Object
+                                                                (
+                                                                    [route:Silex\Controller:private] => Silex\Route Object
+                                                                        (
+                                                                            [path:Symfony\Component\Routing\Route:private] => /
+                                                                            [host:Symfony\Component\Routing\Route:private] => 
+                                                                            [schemes:Symfony\Component\Routing\Route:private] => Array
+                                                                                (
+                                                                                )
+
+                                                                            [methods:Symfony\Component\Routing\Route:private] => Array
+                                                                                (
+                                                                                    [0] => GET
+                                                                                )
+
+                                                                            [defaults:Symfony\Component\Routing\Route:private] => Array
+                                                                                (
+                                                                                    [_controller] => Closure Object
+                                                                                        (
+                                                                                            [this] => Fgz\Controller\Breeds Object
+                                                                                                (
+                                                                                                )
+
+                                                                                        )
+
+                                                                                )
+
+                                                                            [requirements:Symfony\Component\Routing\Route:private] => Array
+                                                                                (
+                                                                                    [_method] => GET
+                                                                                )
+
+                                                                            [options:Symfony\Component\Routing\Route:private] => Array
+                                                                                (
+                                                                                    [compiler_class] => Symfony\Component\Routing\RouteCompiler
+                                                                                )
+
+                                                                            [compiled:Symfony\Component\Routing\Route:private] => 
+                                                                            [condition:Symfony\Component\Routing\Route:private] => 
+                                                                        )
+
+                                                                    [routeName:Silex\Controller:private] => 
+                                                                    [isFrozen:Silex\Controller:private] => 
+                                                                )
+
+                                                            [2] => Silex\Controller Object
+                                                                (
+                                                                    [route:Silex\Controller:private] => Silex\Route Object
+                                                                        (
+                                                                            [path:Symfony\Component\Routing\Route:private] => /{id}
+                                                                            [host:Symfony\Component\Routing\Route:private] => 
+                                                                            [schemes:Symfony\Component\Routing\Route:private] => Array
+                                                                                (
+                                                                                )
+
+                                                                            [methods:Symfony\Component\Routing\Route:private] => Array
+                                                                                (
+                                                                                    [0] => PUT
+                                                                                )
+
+                                                                            [defaults:Symfony\Component\Routing\Route:private] => Array
+                                                                                (
+                                                                                    [_controller] => Closure Object
+                                                                                        (
+                                                                                            [this] => Fgz\Controller\Breeds Object
+                                                                                                (
+                                                                                                )
+
+                                                                                            [parameter] => Array
+                                                                                                (
+                                                                                                    [$request] => <required>
+                                                                                                    [$id] => <required>
+                                                                                                )
+
+                                                                                        )
+
+                                                                                )
+
+                                                                            [requirements:Symfony\Component\Routing\Route:private] => Array
+                                                                                (
+                                                                                    [_method] => PUT
+                                                                                )
+
+                                                                            [options:Symfony\Component\Routing\Route:private] => Array
+                                                                                (
+                                                                                    [compiler_class] => Symfony\Component\Routing\RouteCompiler
+                                                                                )
+
+                                                                            [compiled:Symfony\Component\Routing\Route:private] => 
+                                                                            [condition:Symfony\Component\Routing\Route:private] => 
+                                                                        )
+
+                                                                    [routeName:Silex\Controller:private] => 
+                                                                    [isFrozen:Silex\Controller:private] => 
+                                                                )
+
+                                                            [3] => Silex\Controller Object
+                                                                (
+                                                                    [route:Silex\Controller:private] => Silex\Route Object
+                                                                        (
+                                                                            [path:Symfony\Component\Routing\Route:private] => /
+                                                                            [host:Symfony\Component\Routing\Route:private] => 
+                                                                            [schemes:Symfony\Component\Routing\Route:private] => Array
+                                                                                (
+                                                                                )
+
+                                                                            [methods:Symfony\Component\Routing\Route:private] => Array
+                                                                                (
+                                                                                    [0] => POST
+                                                                                )
+
+                                                                            [defaults:Symfony\Component\Routing\Route:private] => Array
+                                                                                (
+                                                                                    [_controller] => Closure Object
+                                                                                        (
+                                                                                            [this] => Fgz\Controller\Breeds Object
+                                                                                                (
+                                                                                                )
+
+                                                                                            [parameter] => Array
+                                                                                                (
+                                                                                                    [$request] => <required>
+                                                                                                )
+
+                                                                                        )
+
+                                                                                )
+
+                                                                            [requirements:Symfony\Component\Routing\Route:private] => Array
+                                                                                (
+                                                                                    [_method] => POST
+                                                                                )
+
+                                                                            [options:Symfony\Component\Routing\Route:private] => Array
+                                                                                (
+                                                                                    [compiler_class] => Symfony\Component\Routing\RouteCompiler
+                                                                                )
+
+                                                                            [compiled:Symfony\Component\Routing\Route:private] => 
+                                                                            [condition:Symfony\Component\Routing\Route:private] => 
+                                                                        )
+
+                                                                    [routeName:Silex\Controller:private] => 
+                                                                    [isFrozen:Silex\Controller:private] => 
+                                                                )
+
+                                                            [4] => Silex\Controller Object
+                                                                (
+                                                                    [route:Silex\Controller:private] => Silex\Route Object
+                                                                        (
+                                                                            [path:Symfony\Component\Routing\Route:private] => /{id}
+                                                                            [host:Symfony\Component\Routing\Route:private] => 
+                                                                            [schemes:Symfony\Component\Routing\Route:private] => Array
+                                                                                (
+                                                                                )
+
+                                                                            [methods:Symfony\Component\Routing\Route:private] => Array
+                                                                                (
+                                                                                    [0] => DELETE
+                                                                                )
+
+                                                                            [defaults:Symfony\Component\Routing\Route:private] => Array
+                                                                                (
+                                                                                    [_controller] => Closure Object
+                                                                                        (
+                                                                                            [this] => Fgz\Controller\Breeds Object
+                                                                                                (
+                                                                                                )
+
+                                                                                            [parameter] => Array
+                                                                                                (
+                                                                                                    [$id] => <required>
+                                                                                                )
+
+                                                                                        )
+
+                                                                                )
+
+                                                                            [requirements:Symfony\Component\Routing\Route:private] => Array
+                                                                                (
+                                                                                    [_method] => DELETE
+                                                                                )
+
+                                                                            [options:Symfony\Component\Routing\Route:private] => Array
+                                                                                (
+                                                                                    [compiler_class] => Symfony\Component\Routing\RouteCompiler
+                                                                                )
+
+                                                                            [compiled:Symfony\Component\Routing\Route:private] => 
+                                                                            [condition:Symfony\Component\Routing\Route:private] => 
+                                                                        )
+
+                                                                    [routeName:Silex\Controller:private] => 
+                                                                    [isFrozen:Silex\Controller:private] => 
+                                                                )
+
+                                                        )
+
+                                                    [defaultRoute:protected] => Silex\Route Object
+                                                        (
+                                                            [path:Symfony\Component\Routing\Route:private] => /
+                                                            [host:Symfony\Component\Routing\Route:private] => 
+                                                            [schemes:Symfony\Component\Routing\Route:private] => Array
+                                                                (
+                                                                )
+
+                                                            [methods:Symfony\Component\Routing\Route:private] => Array
+                                                                (
+                                                                )
+
+                                                            [defaults:Symfony\Component\Routing\Route:private] => Array
+                                                                (
+                                                                )
+
+                                                            [requirements:Symfony\Component\Routing\Route:private] => Array
+                                                                (
+                                                                )
+
+                                                            [options:Symfony\Component\Routing\Route:private] => Array
+                                                                (
+                                                                    [compiler_class] => Symfony\Component\Routing\RouteCompiler
+                                                                )
+
+                                                            [compiled:Symfony\Component\Routing\Route:private] => 
+                                                            [condition:Symfony\Component\Routing\Route:private] => 
+                                                        )
+
+                                                    [defaultController:protected] => Closure Object
+                                                        (
+                                                            [this] => Silex\ControllerCollection Object
+ *RECURSION*
+                                                            [parameter] => Array
+                                                                (
+                                                                    [$request] => <required>
+                                                                )
+
+                                                        )
+
+                                                    [prefix:protected] => /breeds
+                                                )
+
+                                            [4] => Silex\ControllerCollection Object
+                                                (
+                                                    [controllers:protected] => Array
+                                                        (
+                                                            [0] => Silex\Controller Object
+                                                                (
+                                                                    [route:Silex\Controller:private] => Silex\Route Object
+                                                                        (
+                                                                            [path:Symfony\Component\Routing\Route:private] => /{id}
+                                                                            [host:Symfony\Component\Routing\Route:private] => 
+                                                                            [schemes:Symfony\Component\Routing\Route:private] => Array
+                                                                                (
+                                                                                )
+
+                                                                            [methods:Symfony\Component\Routing\Route:private] => Array
+                                                                                (
+                                                                                    [0] => GET
+                                                                                )
+
+                                                                            [defaults:Symfony\Component\Routing\Route:private] => Array
+                                                                                (
+                                                                                    [_controller] => Closure Object
+                                                                                        (
+                                                                                            [this] => Fgz\Controller\Temps Object
+                                                                                                (
+                                                                                                )
+
+                                                                                            [parameter] => Array
+                                                                                                (
+                                                                                                    [$id] => <required>
+                                                                                                )
+
+                                                                                        )
+
+                                                                                )
+
+                                                                            [requirements:Symfony\Component\Routing\Route:private] => Array
+                                                                                (
+                                                                                    [_method] => GET
+                                                                                )
+
+                                                                            [options:Symfony\Component\Routing\Route:private] => Array
+                                                                                (
+                                                                                    [compiler_class] => Symfony\Component\Routing\RouteCompiler
+                                                                                )
+
+                                                                            [compiled:Symfony\Component\Routing\Route:private] => 
+                                                                            [condition:Symfony\Component\Routing\Route:private] => 
+                                                                        )
+
+                                                                    [routeName:Silex\Controller:private] => 
+                                                                    [isFrozen:Silex\Controller:private] => 
+                                                                )
+
+                                                            [1] => Silex\Controller Object
+                                                                (
+                                                                    [route:Silex\Controller:private] => Silex\Route Object
+                                                                        (
+                                                                            [path:Symfony\Component\Routing\Route:private] => /
+                                                                            [host:Symfony\Component\Routing\Route:private] => 
+                                                                            [schemes:Symfony\Component\Routing\Route:private] => Array
+                                                                                (
+                                                                                )
+
+                                                                            [methods:Symfony\Component\Routing\Route:private] => Array
+                                                                                (
+                                                                                    [0] => GET
+                                                                                )
+
+                                                                            [defaults:Symfony\Component\Routing\Route:private] => Array
+                                                                                (
+                                                                                    [_controller] => Closure Object
+                                                                                        (
+                                                                                            [this] => Fgz\Controller\Temps Object
+                                                                                                (
+                                                                                                )
+
+                                                                                        )
+
+                                                                                )
+
+                                                                            [requirements:Symfony\Component\Routing\Route:private] => Array
+                                                                                (
+                                                                                    [_method] => GET
+                                                                                )
+
+                                                                            [options:Symfony\Component\Routing\Route:private] => Array
+                                                                                (
+                                                                                    [compiler_class] => Symfony\Component\Routing\RouteCompiler
+                                                                                )
+
+                                                                            [compiled:Symfony\Component\Routing\Route:private] => 
+                                                                            [condition:Symfony\Component\Routing\Route:private] => 
+                                                                        )
+
+                                                                    [routeName:Silex\Controller:private] => 
+                                                                    [isFrozen:Silex\Controller:private] => 
+                                                                )
+
+                                                            [2] => Silex\Controller Object
+                                                                (
+                                                                    [route:Silex\Controller:private] => Silex\Route Object
+                                                                        (
+                                                                            [path:Symfony\Component\Routing\Route:private] => /{id}
+                                                                            [host:Symfony\Component\Routing\Route:private] => 
+                                                                            [schemes:Symfony\Component\Routing\Route:private] => Array
+                                                                                (
+                                                                                )
+
+                                                                            [methods:Symfony\Component\Routing\Route:private] => Array
+                                                                                (
+                                                                                    [0] => PUT
+                                                                                )
+
+                                                                            [defaults:Symfony\Component\Routing\Route:private] => Array
+                                                                                (
+                                                                                    [_controller] => Closure Object
+                                                                                        (
+                                                                                            [this] => Fgz\Controller\Temps Object
+                                                                                                (
+                                                                                                )
+
+                                                                                            [parameter] => Array
+                                                                                                (
+                                                                                                    [$request] => <required>
+                                                                                                    [$id] => <required>
+                                                                                                )
+
+                                                                                        )
+
+                                                                                )
+
+                                                                            [requirements:Symfony\Component\Routing\Route:private] => Array
+                                                                                (
+                                                                                    [_method] => PUT
+                                                                                )
+
+                                                                            [options:Symfony\Component\Routing\Route:private] => Array
+                                                                                (
+                                                                                    [compiler_class] => Symfony\Component\Routing\RouteCompiler
+                                                                                )
+
+                                                                            [compiled:Symfony\Component\Routing\Route:private] => 
+                                                                            [condition:Symfony\Component\Routing\Route:private] => 
+                                                                        )
+
+                                                                    [routeName:Silex\Controller:private] => 
+                                                                    [isFrozen:Silex\Controller:private] => 
+                                                                )
+
+                                                            [3] => Silex\Controller Object
+                                                                (
+                                                                    [route:Silex\Controller:private] => Silex\Route Object
+                                                                        (
+                                                                            [path:Symfony\Component\Routing\Route:private] => /
+                                                                            [host:Symfony\Component\Routing\Route:private] => 
+                                                                            [schemes:Symfony\Component\Routing\Route:private] => Array
+                                                                                (
+                                                                                )
+
+                                                                            [methods:Symfony\Component\Routing\Route:private] => Array
+                                                                                (
+                                                                                    [0] => POST
+                                                                                )
+
+                                                                            [defaults:Symfony\Component\Routing\Route:private] => Array
+                                                                                (
+                                                                                    [_controller] => Closure Object
+                                                                                        (
+                                                                                            [this] => Fgz\Controller\Temps Object
+                                                                                                (
+                                                                                                )
+
+                                                                                            [parameter] => Array
+                                                                                                (
+                                                                                                    [$request] => <required>
+                                                                                                )
+
+                                                                                        )
+
+                                                                                )
+
+                                                                            [requirements:Symfony\Component\Routing\Route:private] => Array
+                                                                                (
+                                                                                    [_method] => POST
+                                                                                )
+
+                                                                            [options:Symfony\Component\Routing\Route:private] => Array
+                                                                                (
+                                                                                    [compiler_class] => Symfony\Component\Routing\RouteCompiler
+                                                                                )
+
+                                                                            [compiled:Symfony\Component\Routing\Route:private] => 
+                                                                            [condition:Symfony\Component\Routing\Route:private] => 
+                                                                        )
+
+                                                                    [routeName:Silex\Controller:private] => 
+                                                                    [isFrozen:Silex\Controller:private] => 
+                                                                )
+
+                                                            [4] => Silex\Controller Object
+                                                                (
+                                                                    [route:Silex\Controller:private] => Silex\Route Object
+                                                                        (
+                                                                            [path:Symfony\Component\Routing\Route:private] => /{id}
+                                                                            [host:Symfony\Component\Routing\Route:private] => 
+                                                                            [schemes:Symfony\Component\Routing\Route:private] => Array
+                                                                                (
+                                                                                )
+
+                                                                            [methods:Symfony\Component\Routing\Route:private] => Array
+                                                                                (
+                                                                                    [0] => DELETE
+                                                                                )
+
+                                                                            [defaults:Symfony\Component\Routing\Route:private] => Array
+                                                                                (
+                                                                                    [_controller] => Closure Object
+                                                                                        (
+                                                                                            [this] => Fgz\Controller\Temps Object
+                                                                                                (
+                                                                                                )
+
+                                                                                            [parameter] => Array
+                                                                                                (
+                                                                                                    [$id] => <required>
+                                                                                                )
+
+                                                                                        )
+
+                                                                                )
+
+                                                                            [requirements:Symfony\Component\Routing\Route:private] => Array
+                                                                                (
+                                                                                    [_method] => DELETE
+                                                                                )
+
+                                                                            [options:Symfony\Component\Routing\Route:private] => Array
+                                                                                (
+                                                                                    [compiler_class] => Symfony\Component\Routing\RouteCompiler
+                                                                                )
+
+                                                                            [compiled:Symfony\Component\Routing\Route:private] => 
+                                                                            [condition:Symfony\Component\Routing\Route:private] => 
+                                                                        )
+
+                                                                    [routeName:Silex\Controller:private] => 
+                                                                    [isFrozen:Silex\Controller:private] => 
+                                                                )
+
+                                                        )
+
+                                                    [defaultRoute:protected] => Silex\Route Object
+                                                        (
+                                                            [path:Symfony\Component\Routing\Route:private] => /
+                                                            [host:Symfony\Component\Routing\Route:private] => 
+                                                            [schemes:Symfony\Component\Routing\Route:private] => Array
+                                                                (
+                                                                )
+
+                                                            [methods:Symfony\Component\Routing\Route:private] => Array
+                                                                (
+                                                                )
+
+                                                            [defaults:Symfony\Component\Routing\Route:private] => Array
+                                                                (
+                                                                )
+
+                                                            [requirements:Symfony\Component\Routing\Route:private] => Array
+                                                                (
+                                                                )
+
+                                                            [options:Symfony\Component\Routing\Route:private] => Array
+                                                                (
+                                                                    [compiler_class] => Symfony\Component\Routing\RouteCompiler
+                                                                )
+
+                                                            [compiled:Symfony\Component\Routing\Route:private] => 
+                                                            [condition:Symfony\Component\Routing\Route:private] => 
+                                                        )
+
+                                                    [defaultController:protected] => Closure Object
+                                                        (
+                                                            [this] => Silex\ControllerCollection Object
+ *RECURSION*
+                                                            [parameter] => Array
+                                                                (
+                                                                    [$request] => <required>
+                                                                )
+
+                                                        )
+
+                                                    [prefix:protected] => /temps
+                                                )
+
+                                            [5] => Silex\ControllerCollection Object
+                                                (
+                                                    [controllers:protected] => Array
+                                                        (
+                                                            [0] => Silex\Controller Object
+                                                                (
+                                                                    [route:Silex\Controller:private] => Silex\Route Object
+                                                                        (
+                                                                            [path:Symfony\Component\Routing\Route:private] => /{id}
+                                                                            [host:Symfony\Component\Routing\Route:private] => 
+                                                                            [schemes:Symfony\Component\Routing\Route:private] => Array
+                                                                                (
+                                                                                )
+
+                                                                            [methods:Symfony\Component\Routing\Route:private] => Array
+                                                                                (
+                                                                                    [0] => GET
+                                                                                )
+
+                                                                            [defaults:Symfony\Component\Routing\Route:private] => Array
+                                                                                (
+                                                                                    [_controller] => Closure Object
+                                                                                        (
+                                                                                            [this] => Fgz\Controller\Houses Object
+                                                                                                (
+                                                                                                )
+
+                                                                                            [parameter] => Array
+                                                                                                (
+                                                                                                    [$id] => <required>
+                                                                                                )
+
+                                                                                        )
+
+                                                                                )
+
+                                                                            [requirements:Symfony\Component\Routing\Route:private] => Array
+                                                                                (
+                                                                                    [_method] => GET
+                                                                                )
+
+                                                                            [options:Symfony\Component\Routing\Route:private] => Array
+                                                                                (
+                                                                                    [compiler_class] => Symfony\Component\Routing\RouteCompiler
+                                                                                )
+
+                                                                            [compiled:Symfony\Component\Routing\Route:private] => 
+                                                                            [condition:Symfony\Component\Routing\Route:private] => 
+                                                                        )
+
+                                                                    [routeName:Silex\Controller:private] => 
+                                                                    [isFrozen:Silex\Controller:private] => 
+                                                                )
+
+                                                            [1] => Silex\Controller Object
+                                                                (
+                                                                    [route:Silex\Controller:private] => Silex\Route Object
+                                                                        (
+                                                                            [path:Symfony\Component\Routing\Route:private] => /
+                                                                            [host:Symfony\Component\Routing\Route:private] => 
+                                                                            [schemes:Symfony\Component\Routing\Route:private] => Array
+                                                                                (
+                                                                                )
+
+                                                                            [methods:Symfony\Component\Routing\Route:private] => Array
+                                                                                (
+                                                                                    [0] => GET
+                                                                                )
+
+                                                                            [defaults:Symfony\Component\Routing\Route:private] => Array
+                                                                                (
+                                                                                    [_controller] => Closure Object
+                                                                                        (
+                                                                                            [this] => Fgz\Controller\Houses Object
+                                                                                                (
+                                                                                                )
+
+                                                                                        )
+
+                                                                                )
+
+                                                                            [requirements:Symfony\Component\Routing\Route:private] => Array
+                                                                                (
+                                                                                    [_method] => GET
+                                                                                )
+
+                                                                            [options:Symfony\Component\Routing\Route:private] => Array
+                                                                                (
+                                                                                    [compiler_class] => Symfony\Component\Routing\RouteCompiler
+                                                                                )
+
+                                                                            [compiled:Symfony\Component\Routing\Route:private] => 
+                                                                            [condition:Symfony\Component\Routing\Route:private] => 
+                                                                        )
+
+                                                                    [routeName:Silex\Controller:private] => 
+                                                                    [isFrozen:Silex\Controller:private] => 
+                                                                )
+
+                                                            [2] => Silex\Controller Object
+                                                                (
+                                                                    [route:Silex\Controller:private] => Silex\Route Object
+                                                                        (
+                                                                            [path:Symfony\Component\Routing\Route:private] => /{id}
+                                                                            [host:Symfony\Component\Routing\Route:private] => 
+                                                                            [schemes:Symfony\Component\Routing\Route:private] => Array
+                                                                                (
+                                                                                )
+
+                                                                            [methods:Symfony\Component\Routing\Route:private] => Array
+                                                                                (
+                                                                                    [0] => PUT
+                                                                                )
+
+                                                                            [defaults:Symfony\Component\Routing\Route:private] => Array
+                                                                                (
+                                                                                    [_controller] => Closure Object
+                                                                                        (
+                                                                                            [this] => Fgz\Controller\Houses Object
+                                                                                                (
+                                                                                                )
+
+                                                                                            [parameter] => Array
+                                                                                                (
+                                                                                                    [$request] => <required>
+                                                                                                    [$id] => <required>
+                                                                                                )
+
+                                                                                        )
+
+                                                                                )
+
+                                                                            [requirements:Symfony\Component\Routing\Route:private] => Array
+                                                                                (
+                                                                                    [_method] => PUT
+                                                                                )
+
+                                                                            [options:Symfony\Component\Routing\Route:private] => Array
+                                                                                (
+                                                                                    [compiler_class] => Symfony\Component\Routing\RouteCompiler
+                                                                                )
+
+                                                                            [compiled:Symfony\Component\Routing\Route:private] => 
+                                                                            [condition:Symfony\Component\Routing\Route:private] => 
+                                                                        )
+
+                                                                    [routeName:Silex\Controller:private] => 
+                                                                    [isFrozen:Silex\Controller:private] => 
+                                                                )
+
+                                                            [3] => Silex\Controller Object
+                                                                (
+                                                                    [route:Silex\Controller:private] => Silex\Route Object
+                                                                        (
+                                                                            [path:Symfony\Component\Routing\Route:private] => /
+                                                                            [host:Symfony\Component\Routing\Route:private] => 
+                                                                            [schemes:Symfony\Component\Routing\Route:private] => Array
+                                                                                (
+                                                                                )
+
+                                                                            [methods:Symfony\Component\Routing\Route:private] => Array
+                                                                                (
+                                                                                    [0] => POST
+                                                                                )
+
+                                                                            [defaults:Symfony\Component\Routing\Route:private] => Array
+                                                                                (
+                                                                                    [_controller] => Closure Object
+                                                                                        (
+                                                                                            [this] => Fgz\Controller\Houses Object
+                                                                                                (
+                                                                                                )
+
+                                                                                            [parameter] => Array
+                                                                                                (
+                                                                                                    [$request] => <required>
+                                                                                                )
+
+                                                                                        )
+
+                                                                                )
+
+                                                                            [requirements:Symfony\Component\Routing\Route:private] => Array
+                                                                                (
+                                                                                    [_method] => POST
+                                                                                )
+
+                                                                            [options:Symfony\Component\Routing\Route:private] => Array
+                                                                                (
+                                                                                    [compiler_class] => Symfony\Component\Routing\RouteCompiler
+                                                                                )
+
+                                                                            [compiled:Symfony\Component\Routing\Route:private] => 
+                                                                            [condition:Symfony\Component\Routing\Route:private] => 
+                                                                        )
+
+                                                                    [routeName:Silex\Controller:private] => 
+                                                                    [isFrozen:Silex\Controller:private] => 
+                                                                )
+
+                                                            [4] => Silex\Controller Object
+                                                                (
+                                                                    [route:Silex\Controller:private] => Silex\Route Object
+                                                                        (
+                                                                            [path:Symfony\Component\Routing\Route:private] => /{id}
+                                                                            [host:Symfony\Component\Routing\Route:private] => 
+                                                                            [schemes:Symfony\Component\Routing\Route:private] => Array
+                                                                                (
+                                                                                )
+
+                                                                            [methods:Symfony\Component\Routing\Route:private] => Array
+                                                                                (
+                                                                                    [0] => DELETE
+                                                                                )
+
+                                                                            [defaults:Symfony\Component\Routing\Route:private] => Array
+                                                                                (
+                                                                                    [_controller] => Closure Object
+                                                                                        (
+                                                                                            [this] => Fgz\Controller\Houses Object
+                                                                                                (
+                                                                                                )
+
+                                                                                            [parameter] => Array
+                                                                                                (
+                                                                                                    [$id] => <required>
+                                                                                                )
+
+                                                                                        )
+
+                                                                                )
+
+                                                                            [requirements:Symfony\Component\Routing\Route:private] => Array
+                                                                                (
+                                                                                    [_method] => DELETE
+                                                                                )
+
+                                                                            [options:Symfony\Component\Routing\Route:private] => Array
+                                                                                (
+                                                                                    [compiler_class] => Symfony\Component\Routing\RouteCompiler
+                                                                                )
+
+                                                                            [compiled:Symfony\Component\Routing\Route:private] => 
+                                                                            [condition:Symfony\Component\Routing\Route:private] => 
+                                                                        )
+
+                                                                    [routeName:Silex\Controller:private] => 
+                                                                    [isFrozen:Silex\Controller:private] => 
+                                                                )
+
+                                                        )
+
+                                                    [defaultRoute:protected] => Silex\Route Object
+                                                        (
+                                                            [path:Symfony\Component\Routing\Route:private] => /
+                                                            [host:Symfony\Component\Routing\Route:private] => 
+                                                            [schemes:Symfony\Component\Routing\Route:private] => Array
+                                                                (
+                                                                )
+
+                                                            [methods:Symfony\Component\Routing\Route:private] => Array
+                                                                (
+                                                                )
+
+                                                            [defaults:Symfony\Component\Routing\Route:private] => Array
+                                                                (
+                                                                )
+
+                                                            [requirements:Symfony\Component\Routing\Route:private] => Array
+                                                                (
+                                                                )
+
+                                                            [options:Symfony\Component\Routing\Route:private] => Array
+                                                                (
+                                                                    [compiler_class] => Symfony\Component\Routing\RouteCompiler
+                                                                )
+
+                                                            [compiled:Symfony\Component\Routing\Route:private] => 
+                                                            [condition:Symfony\Component\Routing\Route:private] => 
+                                                        )
+
+                                                    [defaultController:protected] => Closure Object
+                                                        (
+                                                            [this] => Silex\ControllerCollection Object
+ *RECURSION*
+                                                            [parameter] => Array
+                                                                (
+                                                                    [$request] => <required>
+                                                                )
+
+                                                        )
+
+                                                    [prefix:protected] => /houses
+                                                )
+
+                                        )
+
+                                    [defaultRoute:protected] => Silex\Route Object
+                                        (
+                                            [path:Symfony\Component\Routing\Route:private] => /
+                                            [host:Symfony\Component\Routing\Route:private] => 
+                                            [schemes:Symfony\Component\Routing\Route:private] => Array
+                                                (
+                                                )
+
+                                            [methods:Symfony\Component\Routing\Route:private] => Array
+                                                (
+                                                )
+
+                                            [defaults:Symfony\Component\Routing\Route:private] => Array
+                                                (
+                                                )
+
+                                            [requirements:Symfony\Component\Routing\Route:private] => Array
+                                                (
+                                                )
+
+                                            [options:Symfony\Component\Routing\Route:private] => Array
+                                                (
+                                                    [compiler_class] => Symfony\Component\Routing\RouteCompiler
+                                                )
+
+                                            [compiled:Symfony\Component\Routing\Route:private] => 
+                                            [condition:Symfony\Component\Routing\Route:private] => 
+                                        )
+
+                                    [defaultController:protected] => Closure Object
+                                        (
+                                            [this] => Silex\ControllerCollection Object
+ *RECURSION*
+                                            [parameter] => Array
+                                                (
+                                                    [$request] => <required>
+                                                )
+
+                                        )
+
+                                    [prefix:protected] => 
+                                )
+
+                        )
+
+                    [parameter] => Array
+                        (
+                            [$c] => <required>
+                        )
+
+                )
+
+            [controllers_factory] => Closure Object
+                (
+                    [static] => Array
+                        (
+                            [app] => Silex\Application Object
+ *RECURSION*
+                        )
+
+                    [this] => Silex\Application Object
+ *RECURSION*
+                )
+
+            [route_class] => Silex\Route
+            [route_factory] => Closure Object
+                (
+                    [static] => Array
+                        (
+                            [app] => Silex\Application Object
+ *RECURSION*
+                        )
+
+                    [this] => Silex\Application Object
+ *RECURSION*
+                )
+
+            [exception_handler] => Closure Object
+                (
+                    [static] => Array
+                        (
+                            [callable] => Closure Object
+                                (
+                                    [static] => Array
+                                        (
+                                            [app] => Silex\Application Object
+ *RECURSION*
+                                        )
+
+                                    [this] => Silex\Application Object
+ *RECURSION*
+                                )
+
+                            [object] => 
+                        )
+
+                    [parameter] => Array
+                        (
+                            [$c] => <required>
+                        )
+
+                )
+
+            [dispatcher_class] => Symfony\Component\EventDispatcher\EventDispatcher
+            [dispatcher] => Closure Object
+                (
+                    [static] => Array
+                        (
+                            [callable] => Closure Object
+                                (
+                                    [static] => Array
+                                        (
+                                            [callable] => Closure Object
+                                                (
+                                                    [static] => Array
+                                                        (
+                                                            [callback] => Silex\ExceptionListenerWrapper Object
+                                                                (
+                                                                    [app:protected] => Silex\Application Object
+ *RECURSION*
+                                                                    [callback:protected] => Closure Object
+                                                                        (
+                                                                            [static] => Array
+                                                                                (
+                                                                                    [app] => Silex\Application Object
+ *RECURSION*
+                                                                                )
+
+                                                                            [parameter] => Array
+                                                                                (
+                                                                                    [$e] => <required>
+                                                                                    [$code] => <required>
+                                                                                )
+
+                                                                        )
+
+                                                                )
+
+                                                            [priority] => -8
+                                                            [eventName] => kernel.exception
+                                                        )
+
+                                                    [this] => Silex\Application Object
+ *RECURSION*
+                                                    [parameter] => Array
+                                                        (
+                                                            [$dispatcher] => <required>
+                                                            [$app] => <required>
+                                                        )
+
+                                                )
+
+                                            [factory] => Closure Object
+                                                (
+                                                    [static] => Array
+                                                        (
+                                                            [callable] => Closure Object
+                                                                (
+                                                                    [static] => Array
+                                                                        (
+                                                                            [callable] => Closure Object
+                                                                                (
+                                                                                    [static] => Array
+                                                                                        (
+                                                                                            [callback] => Closure Object
+                                                                                                (
+                                                                                                    [static] => Array
+                                                                                                        (
+                                                                                                            [callback] => Closure Object
+                                                                                                                (
+                                                                                                                    [parameter] => Array
+                                                                                                                        (
+                                                                                                                            [$request] => <required>
+                                                                                                                            [$response] => <required>
+                                                                                                                        )
+
+                                                                                                                )
+
+                                                                                                            [app] => Silex\Application Object
+ *RECURSION*
+                                                                                                        )
+
+                                                                                                    [this] => Silex\Application Object
+ *RECURSION*
+                                                                                                    [parameter] => Array
+                                                                                                        (
+                                                                                                            [$event] => <required>
+                                                                                                        )
+
+                                                                                                )
+
+                                                                                            [priority] => 0
+                                                                                            [eventName] => kernel.response
+                                                                                        )
+
+                                                                                    [this] => Silex\Application Object
+ *RECURSION*
+                                                                                    [parameter] => Array
+                                                                                        (
+                                                                                            [$dispatcher] => <required>
+                                                                                            [$app] => <required>
+                                                                                        )
+
+                                                                                )
+
+                                                                            [factory] => Closure Object
+                                                                                (
+                                                                                    [static] => Array
+                                                                                        (
+                                                                                            [callable] => Closure Object
+                                                                                                (
+                                                                                                    [static] => Array
+                                                                                                        (
+                                                                                                            [callable] => Closure Object
+                                                                                                                (
+                                                                                                                    [static] => Array
+                                                                                                                        (
+                                                                                                                            [callback] => Closure Object
+                                                                                                                                (
+                                                                                                                                    [static] => Array
+                                                                                                                                        (
+                                                                                                                                            [callback] => Closure Object
+                                                                                                                                                (
+                                                                                                                                                    [parameter] => Array
+                                                                                                                                                        (
+                                                                                                                                                            [$request] => <required>
+                                                                                                                                                        )
+
+                                                                                                                                                )
+
+                                                                                                                                            [app] => Silex\Application Object
+ *RECURSION*
+                                                                                                                                        )
+
+                                                                                                                                    [this] => Silex\Application Object
+ *RECURSION*
+                                                                                                                                    [parameter] => Array
+                                                                                                                                        (
+                                                                                                                                            [$event] => <required>
+                                                                                                                                        )
+
+                                                                                                                                )
+
+                                                                                                                            [priority] => 512
+                                                                                                                            [eventName] => kernel.request
+                                                                                                                        )
+
+                                                                                                                    [this] => Silex\Application Object
+ *RECURSION*
+                                                                                                                    [parameter] => Array
+                                                                                                                        (
+                                                                                                                            [$dispatcher] => <required>
+                                                                                                                            [$app] => <required>
+                                                                                                                        )
+
+                                                                                                                )
+
+                                                                                                            [factory] => Closure Object
+                                                                                                                (
+                                                                                                                    [static] => Array
+                                                                                                                        (
+                                                                                                                            [callable] => Closure Object
+                                                                                                                                (
+                                                                                                                                    [static] => Array
+                                                                                                                                        (
+                                                                                                                                            [app] => Silex\Application Object
+ *RECURSION*
+                                                                                                                                        )
+
+                                                                                                                                    [this] => Silex\Application Object
+ *RECURSION*
+                                                                                                                                )
+
+                                                                                                                            [object] => 
+                                                                                                                        )
+
+                                                                                                                    [parameter] => Array
+                                                                                                                        (
+                                                                                                                            [$c] => <required>
+                                                                                                                        )
+
+                                                                                                                )
+
+                                                                                                        )
+
+                                                                                                    [this] => Silex\Application Object
+ *RECURSION*
+                                                                                                    [parameter] => Array
+                                                                                                        (
+                                                                                                            [$c] => <required>
+                                                                                                        )
+
+                                                                                                )
+
+                                                                                            [object] => 
+                                                                                        )
+
+                                                                                    [parameter] => Array
+                                                                                        (
+                                                                                            [$c] => <required>
+                                                                                        )
+
+                                                                                )
+
+                                                                        )
+
+                                                                    [this] => Silex\Application Object
+ *RECURSION*
+                                                                    [parameter] => Array
+                                                                        (
+                                                                            [$c] => <required>
+                                                                        )
+
+                                                                )
+
+                                                            [object] => 
+                                                        )
+
+                                                    [parameter] => Array
+                                                        (
+                                                            [$c] => <required>
+                                                        )
+
+                                                )
+
+                                        )
+
+                                    [this] => Silex\Application Object
+ *RECURSION*
+                                    [parameter] => Array
+                                        (
+                                            [$c] => <required>
+                                        )
+
+                                )
+
+                            [object] => 
+                        )
+
+                    [parameter] => Array
+                        (
+                            [$c] => <required>
+                        )
+
+                )
+
+            [callback_resolver] => Closure Object
+                (
+                    [static] => Array
+                        (
+                            [callable] => Closure Object
+                                (
+                                    [static] => Array
+                                        (
+                                            [app] => Silex\Application Object
+ *RECURSION*
+                                        )
+
+                                    [this] => Silex\Application Object
+ *RECURSION*
+                                )
+
+                            [object] => 
+                        )
+
+                    [parameter] => Array
+                        (
+                            [$c] => <required>
+                        )
+
+                )
+
+            [resolver] => Closure Object
+                (
+                    [static] => Array
+                        (
+                            [callable] => Closure Object
+                                (
+                                    [static] => Array
+                                        (
+                                            [app] => Silex\Application Object
+ *RECURSION*
+                                        )
+
+                                    [this] => Silex\Application Object
+ *RECURSION*
+                                )
+
+                            [object] => 
+                        )
+
+                    [parameter] => Array
+                        (
+                            [$c] => <required>
+                        )
+
+                )
+
+            [kernel] => Closure Object
+                (
+                    [static] => Array
+                        (
+                            [callable] => Closure Object
+                                (
+                                    [static] => Array
+                                        (
+                                            [app] => Silex\Application Object
+ *RECURSION*
+                                        )
+
+                                    [this] => Silex\Application Object
+ *RECURSION*
+                                )
+
+                            [object] => 
+                        )
+
+                    [parameter] => Array
+                        (
+                            [$c] => <required>
+                        )
+
+                )
+
+            [request_stack] => Closure Object
+                (
+                    [static] => Array
+                        (
+                            [callable] => Closure Object
+                                (
+                                    [static] => Array
+                                        (
+                                            [app] => Silex\Application Object
+ *RECURSION*
+                                        )
+
+                                    [this] => Silex\Application Object
+ *RECURSION*
+                                )
+
+                            [object] => 
+                        )
+
+                    [parameter] => Array
+                        (
+                            [$c] => <required>
+                        )
+
+                )
+
+            [request_context] => Closure Object
+                (
+                    [static] => Array
+                        (
+                            [callable] => Closure Object
+                                (
+                                    [static] => Array
+                                        (
+                                            [app] => Silex\Application Object
+ *RECURSION*
+                                        )
+
+                                    [this] => Silex\Application Object
+ *RECURSION*
+                                )
+
+                            [object] => 
+                        )
+
+                    [parameter] => Array
+                        (
+                            [$c] => <required>
+                        )
+
+                )
+
+            [url_matcher] => Closure Object
+                (
+                    [static] => Array
+                        (
+                            [callable] => Closure Object
+                                (
+                                    [static] => Array
+                                        (
+                                            [app] => Silex\Application Object
+ *RECURSION*
+                                        )
+
+                                    [this] => Silex\Application Object
+ *RECURSION*
+                                )
+
+                            [object] => 
+                        )
+
+                    [parameter] => Array
+                        (
+                            [$c] => <required>
+                        )
+
+                )
+
+            [request_error] => Closure Object
+                (
+                    [static] => Array
+                        (
+                            [callable] => Closure Object
+                                (
+                                    [this] => Silex\Application Object
+ *RECURSION*
+                                )
+
+                        )
+
+                    [parameter] => Array
+                        (
+                            [$c] => <required>
+                        )
+
+                )
+
+            [request] => Closure Object
+                (
+                    [this] => Silex\Application Object
+ *RECURSION*
+                )
+
+            [request.http_port] => 80
+            [request.https_port] => 443
+            [debug] => 1
+            [charset] => UTF-8
+            [locale] => en
+            [log.level] => 400
+            [api.version] => v1
+            [api.endpoint] => /api
+            [config] => Array
+                (
+                    [routes] => Array
+                        (
+                            [animals] => animals
+                            [breeds] => breeds
+                            [temps] => temps
+                            [houses] => houses
+                        )
+
+                )
+
+            [ar.init] => Closure Object
+                (
+                    [static] => Array
+                        (
+                            [callable] => Closure Object
+                                (
+                                    [this] => Ruckuus\Silex\ActiveRecordServiceProvider Object
+                                        (
+                                            [app] => Silex\Application Object
+ *RECURSION*
+                                        )
+
+                                    [parameter] => Array
+                                        (
+                                            [$app] => <required>
+                                        )
+
+                                )
+
+                            [object] => 
+                        )
+
+                    [parameter] => Array
+                        (
+                            [$c] => <required>
+                        )
+
+                )
+
+            [ar.model_dir] => C:\Program Files (x86)\xampp\htdocs\fgz\src\Fgz\Model
+            [ar.connections] => Array
+                (
+                    [development] => sqlite://fgz.db
+                )
+
+            [ar.default_connection] => development
+            [monolog.handler.debug] => Closure Object
+                (
+                    [static] => Array
+                        (
+                            [app] => Silex\Application Object
+ *RECURSION*
+                        )
+
+                    [this] => Silex\Provider\MonologServiceProvider Object
+                        (
+                        )
+
+                )
+
+            [monolog.logger.class] => Symfony\Bridge\Monolog\Logger
+            [monolog] => Closure Object
+                (
+                    [static] => Array
+                        (
+                            [callable] => Closure Object
+                                (
+                                    [this] => Silex\Provider\MonologServiceProvider Object
+                                        (
+                                        )
+
+                                    [parameter] => Array
+                                        (
+                                            [$app] => <required>
+                                        )
+
+                                )
+
+                            [object] => 
+                        )
+
+                    [parameter] => Array
+                        (
+                            [$c] => <required>
+                        )
+
+                )
+
+            [monolog.handler] => Closure Object
+                (
+                    [static] => Array
+                        (
+                            [app] => Silex\Application Object
+ *RECURSION*
+                        )
+
+                    [this] => Silex\Provider\MonologServiceProvider Object
+                        (
+                        )
+
+                )
+
+            [monolog.level] => 400
+            [monolog.listener] => Closure Object
+                (
+                    [static] => Array
+                        (
+                            [callable] => Closure Object
+                                (
+                                    [static] => Array
+                                        (
+                                            [app] => Silex\Application Object
+ *RECURSION*
+                                        )
+
+                                    [this] => Silex\Provider\MonologServiceProvider Object
+                                        (
+                                        )
+
+                                )
+
+                            [object] => 
+                        )
+
+                    [parameter] => Array
+                        (
+                            [$c] => <required>
+                        )
+
+                )
+
+            [monolog.name] => application
+            [monolog.bubble] => 1
+            [monolog.permission] => 
+            [monolog.logfile] => C:\Program Files (x86)\xampp\htdocs\fgz/storage/logs/2014-09-28.log
+        )
+
+)

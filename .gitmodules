@@ -1,0 +1,3 @@
+[submodule "vendor/nutwerk-orm-extension"]
+	path = vendor/nutwerk-orm-extension
+	url = git://github.com/taluu/nutwerk-orm-extension.git
